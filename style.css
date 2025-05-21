@@ -82,7 +82,7 @@ p{
   gap: 5px;
 }
 
-.remember_me {
+.remember {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -103,7 +103,7 @@ form {
 }
 
 
-.container {
+.box {
   display: flex;
   flex-direction: column;
   width: 550px;
@@ -164,7 +164,7 @@ img {
   gap: 5px;
 }
 
-.ab{
+.ht{
   color: #667eea;
   text-decoration: none;
 }
