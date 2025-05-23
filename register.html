@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>register</title>
+</head>
+<body>
+    <div class="box">
+        <header>
+            <h1>Student Regestration</h1>
+            <h2>Create your student account</h2>
+        </header>
+        <main>
+            <form action="/api/register" method="post">
+                <div class="input-field">
+                    <label for="name">Full Name</label>
+                    <input type="name" placeholder="Enter your full name">
+                </div>
+                <div class="input-field">
+                    <label for="emal"> Password </label>
+                    <input type="email" placeholder="Email Adress">
+                </div>
+                <div class="input-field">
+                    <label for="ID"> Student ID </label>
+                    <input type="ID" placeholder="Enter your student ID">
+                </div>
+                <div class="stud_id">
+                    <label>Select Program</label>
+    
+                    <select class="choose">
+                        <placeholder="Choose your programm"></placeholder>
+                        <option value="value1">Computer Science</option>
+                        <option value="value2">Engineering</option>
+                        <option value="value3">Business</option>
+                        <option value="value4">Arts & Humanities</option>
+                        <option value="value5">Science</option>
+                      </select>
+                </div>
+                <div class="input-field">
+                    <label for="password"> Password</label>
+                    <input type="password" placeholder="Create a password">
+                </div>
+                <div class="input-field">
+                    <label for="password"> Confirm Password </label>
+                    <input type="password" placeholder="Confirm your password">
+                </div>
+                <div class="Privacy">
+                    <input type="checkbox" id="checkbox">
+                    <label for="checkbox">I agree to the of Service and Privacy Policy</label>
+                </div>               
+            </from>
+            <button>Create Account</button>
+            <div class="register">
+                <p>Already have an account?</p>
+                <a class="ht" href="index.html">Log in</a>
+            </div>
+        </main>
+    </div>
+</body>
+</html>

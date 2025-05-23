@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="stylescss">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>index</title>
+</head>
+<body>
+    <div class="box">
+        <header>
+            <h1>Student Login</h1>
+            <h2>Access your student account</h2>
+        </header>
+        <main>
+            <form action="/api/login" method="post">
+                <div class="input-field">
+                    <label for="email">Email or Student ID</label>
+                    <input type="email" placeholder="Enter your email or student ID">
+                </div>
+                <div class="input-field">
+                    <label for="password"> Password </label>
+                    <input type="password" placeholder="Enter your password">
+                </div>
+                <div class="remember">
+                    <input type="checkbox" id="checkbox">
+                    <label for="checkbox">Remember me</label>
+                    <a class="a" href="#">Forgot password?</a>
+                </div>                
+            </from>
+            <button>Log In</button>
+            <div class="line">
+                <p>OR</p>
+            </div>
+            <div class="logo">
+                    <a href="https://www.google.ru/?hl=ru" class="company"> <img src="google.svg"> </a>
+                    <a href="https://www.microsoft.com/ru-ru" class="company"><img src="microsoft.svg"> </a>
+                    <a href="https://www.apple.com/" class="company"> <img src="apple.svg"> </a>    
+            </div>
+            <div class="register">
+                <p>Don't have an account?</p>
+                <a class="ht" href="register.html">Register</a>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
